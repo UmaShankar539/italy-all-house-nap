@@ -15,10 +15,12 @@ ROOT = Path(__file__).resolve().parents[1]
 BUILD = ROOT / "build"
 BUILD.mkdir(exist_ok=True)
 
+
 ANNCSU_URL = (
     "https://anncsu.open.agenziaentrate.gov.it/"
-    "age-inspire/opendata/anncsu/getds.php?INDIR_ITA="
+    "age-inspire/opendata/anncsu/getds.php?INDIR_ITA"
 )
+
 
 OSM_PAGE = "https://openstreetdata.org/"
 OSM_FALLBACK = "https://openstreetdata.org/data/IT-houses.tsv.gz"
